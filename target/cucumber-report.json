@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login Positivo",
+        "description": "",
+        "id": "login;login-positivo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6350895752,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Jose acessa o TestLink",
+            "match": {
+              "location": "Login.Jose_acessa_o_TestLink()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6259086398,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "preenche o usuario e senha corretos",
+            "match": {
+              "location": "Login.preenche_o_usuario_e_senha_corretos()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3382226788,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "visualiza a home interna",
+            "match": {
+              "location": "Login.visualiza_a_home_interna()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "Como um usuario, gostaria de realizar o login no TestLink",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
